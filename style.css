@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+/* --------------------SECTION1--------------- */
+/* --------------------SECTION1--------------- */
+/* --------------------SECTION1--------------- */
+
+
+.section1 {
+    background-image: url(bg-s1.png);
+    background-size: cover;
+    
+    height: 802px;
+} 
+
+.klin {
+
+    /* sizing */
+    height: 429px;
+    width: 140px;
+
+    /* Positioning */
+    position: relative;
+    bottom: 255px;
+    right: 10px;
+
+}
+
+.txt1 {
+
+    /* Visual */
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+
+    /* sizing */
+    font-size: 75px;
+    font-weight: 300;
+    height: 102px;
+    width: 174px;
+
+    /* Positioning */
+    position: relative;
+    top: 200px;
+    margin-left: 260px;
+}
+
+.franklin {
+
+    /* Visual */
+    color: #FE3300;
+    font-family: 'Open Sans', sans-serif;
+
+    /* sizing */
+    font-size: 115px;
+    height: 157px;
+    width: 601px;
+
+    /* Positioning */
+    position: relative;
+    top: 150px;
+    margin-left: 260px;
+}
+
+.img1 {
+    /* sizing */
+    height: 712px;
+    width: 476px;
+
+    /* aligning */
+    float: right;
+
+    /* positioning */
+    position: relative;
+    bottom: 167px;
+}
+
+.webdev, .gfx-webdev {
+
+    /* Visual */
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+    /* sizing */
+    font-size: 29px;
+    font-weight: 300;
+}
+.webdev {
+    position: relative;
+    bottom: 315px;
+    margin-left: 265px;
+}
+.gfx-webdev {
+    position: relative;
+    bottom: 354px;
+    margin-left: 520px;
+}
+
+.active {
+    color: #FE3300;
+}
+ul {
+    /* aligning */
+    display: flex;
+    list-style: none;
+    float: right;
+
+    /* Positioning */
+    position: relative;
+    bottom: 170px;
+    right: 70px;
+}
+
+li a {
+    /* Visual */
+    color: #636363;
+    font-family: 'Open Sans', sans-serif;
+
+    /* sizing */
+    margin: 0px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    
+    /* Positioning */
+    position: relative;
+    top: 200px;   
+}
+
+a:hover {
+    color: #FE3300;
+}
+
+.social-media {
+    position: relative;
+    bottom: 80%;
+
+    margin-left: 96%;
+}
+/* --------------------SECTION1--------------- */
+/* --------------------SECTION1--------------- */
+/* --------------------SECTION1--------------- */
+
+
+
+
+
+
+/* --------------------SECTION2--------------- */
+/* --------------------SECTION2--------------- */
+/* --------------------SECTION2--------------- */
+.section2 {
+    background-image: url(bg-2.png);
+    background-size: cover;
+
+    height: 999px;
+}
+
+.img2 {
+    /* sizing */
+    height: 637px;
+    width: 451px;
+
+    /* positioning */
+    position: relative;
+    right: 50px;
+    top: 10px; 
+    float: left;
+    z-index: 2;
+    
+}
+
+.aboutme {
+
+    /* Visual */
+    color: #FE3300;
+    font-family: 'Open Sans', sans-serif;
+
+    /* sizing */
+    font-size: 115px;
+    height: 157px;
+    width: 612px;
+
+    /* Positioning */
+    z-index: 1;
+    position: relative;
+    top: 50px;
+    left: 400px;
+    
+}
+
+.aboutme-fade {
+
+    /* Visual */
+    color: #646464;
+    opacity: 5%;
+    font-family: 'Open Sans', sans-serif;
+
+    /* sizing */
+    font-size: 140px;
+    height: 197px;
+    width: 771px;
+    
+
+    /* Positioning */
+    float: right;
+    z-index: 0;
+    position: relative;
+    left: 220px;
+    bottom: 15%;
+    
+}
+
+.line {
+    position: relative;
+    top: 80px;
+    right: 240px;
+    z-index: 1;
+}
+
+.name {
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    bottom: 175px;
+    margin-left: 640px;
+}
+
+.email {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    bottom: 140px;
+    margin-left: 540px;
+}
+.age {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    bottom: 120px;
+    margin-left: 465px;
+
+}
+.gender {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    bottom: 93px;
+    right: 120px;    
+}
+
+.label {
+    color: #FE3300;
+    font-family: 'Open Sans', sans-serif;
+
+   
+    font-size: 29px;
+    font-weight: 500;
+}
+
+
+
+.line2 {
+    position: relative;
+    margin-left: 429px;
+    
+  
+}
+
+.address {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+   font-size: 29px;
+   
+   position: relative;
+   right: 59px;
+   float: right;
+    bottom: 10px;
+   
+  
+}
+
+.contact {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    bottom: 120px;
+    right: 89px;
+    float: right;
+}
+
+.degree {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    float: right;
+    position: relative;
+    bottom: 50px;
+    left: 220px;
+    
+}
+
+/* --------------------SECTION2--------------- */
+/* --------------------SECTION2--------------- */
+/* --------------------SECTION2--------------- */
+
+
+
+
+
+
+/* --------------------SECTION3--------------- */
+/* --------------------SECTION3--------------- */
+/* --------------------SECTION3--------------- */
+
+.section3 {
+    background-image: url(bg-s3.png);
+    height: 1531px;  
+}
+
+.skills {
+     /* Visual */
+     color: #FE3300;
+     font-family: 'Open Sans', sans-serif;
+ 
+     /* sizing */
+     font-size: 115px;
+     height: 157px;
+     width: 386px;
+ 
+     /* Positioning */
+     z-index: 1;
+     position: relative;
+     top: 50px;
+     left: 36%;
+}
+
+.skills-fade {
+
+     /* Visual */
+     color: #646464;
+     opacity: 5%;
+     font-family: 'Open Sans', sans-serif;
+ 
+     /* sizing */
+     font-size: 179px;
+     height: 243px;
+     width: 600px;
+     
+ 
+     /* Positioning */
+     float: left;
+     z-index: 0;
+     position: relative;
+     bottom: 170px;
+     left: 380px;
+}
+
+.paragraph2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+    /* sizing */
+    font-weight: 300;
+    font-size: 29px;
+    width: 392px;
+    height: 39px;
+
+    /* Positioning */
+    position: relative;
+    top: 40px;
+    right: 125px;
+
+    display: inline;
+}
+.image-franklin {
+   position: relative;
+   top: 20%;
+   right: 29.5%;
+    
+}
+
+.image-franklin-fade {
+    opacity: 7%;
+    position: relative;
+    top: 23%;
+    right: 800px;
+    
+ }
+
+.frames { 
+   position: relative;
+   bottom: 185px;
+   margin-left: 13%;
+}
+
+.gfx-designer {
+    color: #FE3300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 29px;
+
+    position: relative;
+    bottom: 42%;
+    margin-left: 65%;
+}
+
+.web-dev {
+    color: #FE3300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 29px;
+
+    position: relative;
+    bottom: 39%;
+    margin-left: 65%;
+}
+.web-designer {
+    color: #FE3300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 29px;
+
+    position: relative;
+    bottom: 37%;
+    margin-left: 65%;
+}
+
+.details1 {
+    position: relative;
+    bottom: 42%;
+    margin-left: 65.5%;
+}
+
+.details2 {
+    position: relative;
+    bottom: 39%;
+    margin-left: 65.5%;
+}
+
+.details3 {
+    position: relative;
+    bottom: 37%;
+    margin-left: 65.5%;
+}
+
+.details-style {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    font-size: 19px;
+}
+
+.pen-icon {
+    position: relative;
+    bottom: 32%;
+    left: 6%;
+}
+.dev-icon {
+    position: relative;
+    bottom: 26%;
+    right: 8.4%;
+}
+.paint-icon {
+    position: relative;
+    bottom: 13%;
+    right: 22.6%;
+}
+
+
+/* --------------------SECTION3--------------- */
+/* --------------------SECTION3--------------- */
+/* --------------------SECTION3--------------- */
+
+/* --------------------SECTION4--------------- */
+/* --------------------SECTION4--------------- */
+/* --------------------SECTION4--------------- */
+
+.section4 {
+    background: url(bg-s4.png);
+    height: 820px;
+}
+
+.quotes {
+    color: #646464;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:900;
+    font-size: 64px;
+
+    position: relative;
+    top: 40%;
+    margin-left: 15%;
+}
+
+.quotes2 {
+    color: #646464;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:900;
+    font-size: 64px;
+
+    position: relative;
+    top: 37%;
+    margin-left: 22%;
+}
+
+.highlight {
+    color: #ffffff;
+}
+
+.bro-eli {
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:900;
+    color: #FE3300;
+
+    position: relative;
+    top: 50%;
+    margin-left: 70%;
+}
+/* --------------------SECTION4--------------- */
+/* --------------------SECTION4--------------- */
+/* --------------------SECTION4--------------- */
+
+
+/* --------------------SECTION5--------------- */
+/* --------------------SECTION5--------------- */
+/* --------------------SECTION5--------------- */
+
+.section5 {
+    background: url(bg-footer.png);
+    height: 892px;
+}
+
+.userpic {
+    height: 296px;
+    width: 298px;
+
+    position: relative;
+    left: 540px;
+    top: 25%;
+}
+
+.Franklin {
+    font-size: 51px;
+    color: #FE3300;
+    font-family: 'Open Sans', sans-serif;
+
+    position: relative;
+    top: 27%;
+    margin-left: 37%;
+    
+}
+
+.web-devsdesigner {
+    font-size: 21px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    top: 26%;
+    margin-left: 37%;
+    
+}
+
+.twitter-footer {
+    height: 50px;
+    
+    position: relative;
+    top: 35%;
+    margin-left: 30%;
+}
+
+.twitter-franklin {
+
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    top: 36%;
+    margin-left: 27.5%;
+}
+
+.black-email {
+    height: 50px;
+
+    position: relative;
+    top: 26.6%;
+    margin-left: 50%;
+}
+
+.email-address {
+
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    top: 27.7%;
+    margin-left: 48%;
+}
+
+.black-facebook {
+    height: 50px;
+
+    position: relative;
+    top: 17.8%;
+    margin-left: 68%;
+}
+.facebook-email {
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+    position: relative;
+    top: 19%;
+    margin-left: 66%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
